@@ -95,15 +95,15 @@ def treeWalk(currentHive, hiveKey, keypath):
 		pass
 
 # Types Figured Out By Trial And Error
-# 0 = REG_NONE: 						Binary Values
-# 1 = REG_SZ: 							String Values
-# 2 = REG_EXPAND_SZ: 					String Values
-# 3 = REG_BINARY: 						Binary Values
-# 4 = REG_DWORD: 						32 bit integer
-# 7 = REG_MULTI_SZ: 					String Values
-# 8 = REG_RESOURCE_LIST: 				Binary Values
+# 0 = REG_NONE: 			Binary Values
+# 1 = REG_SZ: 				String Values
+# 2 = REG_EXPAND_SZ: 			String Values
+# 3 = REG_BINARY: 			Binary Values
+# 4 = REG_DWORD: 			32 bit integer
+# 7 = REG_MULTI_SZ: 			String Values
+# 8 = REG_RESOURCE_LIST: 		Binary Values
 # 9 = REG_FULL_RESOURCE_DESCRIPTOR: 	Binary Values
-# 11 = REG_QWORD: 						64 bit integer
+# 11 = REG_QWORD: 			64 bit integer
 # 5,6,10,12+ - either the registry types doesn't exist for this OS, or isn't in the registry as a value type
 
 registryValTypesToAnalyze = [0,3,8,9]
