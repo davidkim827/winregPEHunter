@@ -1,4 +1,7 @@
-import winreg, sys, binascii, textwrap
+import winreg
+import sys
+import binascii
+import textwrap
 
 hives = [winreg.HKEY_CLASSES_ROOT, winreg.HKEY_CURRENT_USER, winreg.HKEY_LOCAL_MACHINE, winreg.HKEY_USERS, winreg.HKEY_CURRENT_CONFIG]
 
